@@ -1,0 +1,12 @@
+# Existing GPU torch/torchvision in MyOwnVenv are preserved.
+torch>=2.8,<3
+torchvision>=0.23
+numpy>=2,<3
+pandas>=2,<4
+matplotlib>=3.9
+Pillow>=10
+scipy==1.16.3
+pytorch-ignite==0.5.3
+ipykernel>=6
+nbformat>=5.10
+nbclient>=0.10

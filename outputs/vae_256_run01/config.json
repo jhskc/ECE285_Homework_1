@@ -1,0 +1,17 @@
+{
+  "model": "UnconditionalConvVAE",
+  "latent_dim": 128,
+  "crop_size": 256,
+  "B": 32,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "optimizer": "Adam",
+  "gradient_clip_norm": 10,
+  "loss": "summed MSE + KL; Gaussian pixel variance 0.5; constant omitted",
+  "train_images": 5216,
+  "val_images": 16,
+  "data_root": "C:\\Users\\jimmy\\VS_Code_Projects\\ECE285_Homework_1\\data\\chest_xray",
+  "device": "cuda",
+  "torch": "2.13.0+cu132"
+}

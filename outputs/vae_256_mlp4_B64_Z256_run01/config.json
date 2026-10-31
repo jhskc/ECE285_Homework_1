@@ -1,0 +1,22 @@
+{
+  "latent_dim": 256,
+  "B": 64,
+  "decoder_type": "mlp",
+  "epochs": 40,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "crop_size": 256,
+  "gradient_clip_norm": 10,
+  "image_export_every": 5,
+  "num_workers": 8,
+  "pin_memory": true,
+  "model_type": "UnconditionalMLPVAE",
+  "pixel_variance_learning_rate": null,
+  "latent_channels": null,
+  "hidden_dims": [
+    512,
+    512,
+    512,
+    512
+  ]
+}

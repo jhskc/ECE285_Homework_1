@@ -1,0 +1,18 @@
+{
+  "FID": 431.78093826404245,
+  "IS": 1.3676382292583427,
+  "real_images": 624,
+  "generated_images": 624,
+  "seed": 2026,
+  "fid_features": "torchvision ImageNet Inception-v3 pooled 2048",
+  "is_classes": 1000,
+  "inception_weights": "Inception_V3_Weights.IMAGENET1K_V1",
+  "preprocessing": "grayscale to RGB; Inception weights.transforms()",
+  "test_preprocessing": "Compose(\n      Grayscale(num_output_channels=1)\n      Resize(size=[256], interpolation=bilinear, antialias=True)\n      CenterCrop(size=(256, 256))\n      ToImage()\n      ToDtype(scale=True)\n)",
+  "test_reference": "official test split, including its within-split duplicate files",
+  "torch": "2.13.0+cu132",
+  "checkpoint": "outputs\\vae_256_B64_Z64_run01\\best.pt",
+  "checkpoint_epoch": 20,
+  "training_B": 64,
+  "latent_dim": 64
+}
